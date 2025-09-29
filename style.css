@@ -41,9 +41,16 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: #a5d8ff; /* Placeholder */
-  border: 3px solid #ff6bce;
-  margin: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #333;
+}
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .about h2 {
